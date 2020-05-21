@@ -1,0 +1,28 @@
+div.category_name {font-size: 20px; font-weight: bold;}
+ul.product {list-style: none;padding:5px ;margin:5px;border:1px dashed blue }
+ul.product li {display:inline-block; text-align: center; padding:5px; margin:10px; border: 1px solid black; background-color: #dddddd}
+ul.product li div.price {font-weight: bold; background-color: #eeeeee;}
+ul.product li div.image {width:200px; height:140px; overflow:hidden;}
+ul.product li span.name {font-weight: bold;}
+a {text-decoration: none; color: #000000}
+
+#main {background-color:#00000; ; border-style:double; margin:20px; width: 950px; min-height: 700px}
+header {background-color:white; margin:5px; }
+header div.header_right {text-align: right; margin-right:30px; }
+header div a {border:1px solid #0072ce;border-radius: 3px; padding:1px}
+header div.header {text-align: center; font-size: 30px; color: #0072ce; font-weight: bold;}
+
+nav {background-color:#ffffff; border-top:1px solid #0072ce; border-bottom: 1px solid #0072ce; margin: 5px}
+nav span {border-right:3px double #0072ce; padding-left:30px; padding-right:30px}
+nav ul {display:inline-block;}
+nav ul li {display: inline; list-style-type: none; border-left: 2px solid #0072ce; padding-left:20px; padding-right:10px}
+nav ul li:first-child {border-left: none}
+nav ul li a {padding:7px}
+nav ul li a:hover {color:#ffffff; background-color: #0072ce; }
+
+article {float:left; background-color:#ffffff;  margin:10px; background-color: #aaaaaa}
+
+
+aside {text-align: center; float:right; #ffffff; margin:5px; padding:10px; width:120px; background-color: #cccccc}
+aside input {width: 110px; margin:5px}
+footer {border-top:1px solid #0072ce; background-color:#ffffff; text-align:center; padding: 5px; margin:5px; width:900px;}

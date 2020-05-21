@@ -5,27 +5,29 @@
     <title>회원가입</title>
     <link rel="stylesheet" type="text/css" href="extern.css">
   </head>
-  <body>
-    <h3>회원가입</h3>
-    <fieldset>
-      <label for="user_id">아이디 : &nbsp;&nbsp;</label>
-      <input type="text" name="id" id="user_id" size="15">
-      <br>
-      <label for="user_pw">비밀번호 : </label>
-      <input type="password" name="pw" id="user_pw" size="15">
-      <br>
-      <label for="user_name">이 &nbsp; 름 : &nbsp;&nbsp;</label>
-      <input type="text" name="name" size="15">
-      <br>
-      <label for="user_name">전화번호 : </label>
-      <input type="text" name="name" size="15" placeholder="010-0000-0000">
-      <br>
-      <label for="user_name">주 &nbsp; 소 : &nbsp;&nbsp;</label>
-      <input type="text" name="name" size="30">
-
-    </fieldset>
-    <br>
-    <input type="submit" name="" value="회원가입">
-    <input type="reset" name="" value="지우기">
+  <body class="forms">
+    <form method="post"><br>
+      <h3>회원가입</h3><br>
+      <fieldset><br>
+        <label for="user_id">아이디 : &nbsp;&nbsp;</label>
+        <input type="text" name="id" id="user_id" size="15">
+        <br><br>
+        <label for="user_pw">비밀번호 : </label>
+        <input type="password" name="pw" id="user_pw" size="15">
+        <br><br>
+        <label for="user_name">이 &nbsp; 름 : &nbsp;&nbsp;</label>
+        <input type="text" name="name" size="15">
+        <br><br>
+        <label for="user_name">전화번호 : </label>
+        <input type="text" name="name" size="15" placeholder="010-0000-0000">
+        <br><br>
+        <label for="user_name">주 &nbsp; 소 : &nbsp;&nbsp;</label>
+        <input type="text" name="name" size="30">
+        <br><br>
+      </fieldset>
+      <br><br><br>
+      <input type="submit" name="" value="회원가입">
+      <input type="reset" name="" value="취소">
+    </form>
   </body>
 </html>

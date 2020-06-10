@@ -1,3 +1,10 @@
+// join.html
+function idDuplicateVerify(){
+  var temp = prompt("회원가입 할 아이디를 입력해주세요");
+  alert("사용가능한 아이디 입니다. ");
+  document.getElementById("user_id_temp").value = temp;
+}
+
 // order0.html
 var fruit1 = new Array("fruit11", "fruit12", "fruit13", "fruit14", "fruit15", "fruit16", "fruit17", "fruit18");
 var fruit2 = new Array("fruit21", "fruit22", "fruit23", "fruit24", "fruit25", "fruit26", "fruit27", "fruit28");

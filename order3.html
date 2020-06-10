@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>주문하기 [숙명건조공장]</title>
     <link rel="stylesheet" type="text/css" href="extern.css">
+    <script type="text/javascript" src="extern.js"></script>
   </head>
   <body class="orders">
     <form method="post" action="">
@@ -22,36 +23,36 @@
         <tbody>
           <tr>
             <td>1</td> <td>건조 사과 (20g)</td> <td>2,300원</td>
-            <td><input type="number" name="" value="0" min="0"> 개</td>
+            <td><input type="number" name="" value="0" min="0" id="fruit31"> 개</td>
           </tr>
           <tr>
             <td>2</td> <td>건살구 (145g)</td> <td>4,900원</td>
-            <td><input type="number" name="" value="0" min="0"> 개</td>
+            <td><input type="number" name="" value="0" min="0" id="fruit32"> 개</td>
           </tr>
           <tr>
             <td>3</td> <td>말린 바나나 (450g)</td> <td>7,980원</td>
-            <td><input type="number" name="" value="0" min="0"> 개</td>
+            <td><input type="number" name="" value="0" min="0" id="fruit33"> 개</td>
           </tr>
           <tr>
             <td>4</td> <td>건무화과 (180g)</td> <td>5,800원</td>
-            <td><input type="number" name="" value="0" min="0"> 개</td>
+            <td><input type="number" name="" value="0" min="0" id="fruit34"> 개</td>
           </tr>
           <tr>
             <td>5</td> <td>말린 키위 (200g)</td> <td>5,900원</td>
-            <td><input type="number" name="" value="0" min="0"> 개</td>
+            <td><input type="number" name="" value="0" min="0" id="fruit35"> 개</td>
           </tr>
           <tr>
             <td>6</td> <td>건파인애플 (100g)</td> <td>1,750원</td>
-            <td><input type="number" name="" value="0" min="0"> 개</td>
+            <td><input type="number" name="" value="0" min="0" id="fruit36"> 개</td>
           </tr>
           <tr>
             <td>7</td> <td>건조 딸기 (17g)</td> <td>3,500원</td>
-            <td><input type="number" name="" value="0" min="0"> 개</td>
+            <td><input type="number" name="" value="0" min="0" id="fruit37"> 개</td>
           </tr>
         </tbody>
       </table>
       <br><br>
-      <input type="submit" name="" value="주문하기">
+      <input type="submit" name="" value="주문하기" onclick="order3Function();">
       <input type="reset" name="" value="취소">
     </form>
   </body>

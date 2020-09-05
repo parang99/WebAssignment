@@ -1,5 +1,6 @@
 # 숙명 직거래 과일 장터
 My website is published at https://parang99.github.io/WebAssignment/
+
 ---
 Website architecture
 - header : 홈페이지 이름, 로그인, 회원가입

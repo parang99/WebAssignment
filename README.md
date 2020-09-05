@@ -22,3 +22,10 @@ Website architecture
 - order4.html : 세계과일수입의 과일 주문서 작성
 - extern.css : External Style Sheet file
 - extern.js : External Javascript file
+---
+폴더 설명
+- domestic : 국내과일 사진 모음
+- dried : 건조과일 사진 모음
+- foreign : 외국과일 사진 모음
+- pictures : 판매자별 과일 사진 모음
+모든 사진의 출처는 Google입니다. 

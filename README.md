@@ -28,4 +28,5 @@ Website architecture
 - dried : 건조과일 사진 모음
 - foreign : 외국과일 사진 모음
 - pictures : 판매자별 과일 사진 모음
+
 모든 사진의 출처는 Google입니다. 
